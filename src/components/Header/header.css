@@ -1,0 +1,68 @@
+header {
+  height: 55px;
+  border-bottom: #ededed solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px;
+}
+
+header img {
+  height: 45px;
+  width: 90px;
+}
+
+header input {
+  margin-left: 10px;
+  height: 30px;
+  width: 700px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header input::placeholder {
+  color: #bcb9b9;
+  padding-left: 10px;
+}
+
+header button {
+  background-color: white;
+  border: 1px solid #05b1ba;
+  border-radius: 5px;
+  color: #05b1ba;
+  height: 28px;
+  width: 130px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+.sellArticles {
+  margin-left: 30px;
+  background-color: #05b1ba;
+  color: white;
+}
+
+.twice {
+  display: flex;
+  gap: 15px;
+}
+
+.disconnect {
+  background-color: white;
+  border: 1px solid rgb(249, 102, 102);
+  border-radius: 5px;
+  color: rgb(249, 102, 102);
+  height: 28px;
+  width: 130px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

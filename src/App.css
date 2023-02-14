@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+.main {
+  background-image: url("./components/vinted-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background: cover;
+  height: 680px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 120px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.firstPart {
+  width: 380px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 280px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.firstPart button {
+  width: 320px;
+  height: 48px;
+  background-color: #05b1ba;
   color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.firstPart h1 {
+  font-size: 38px;
+  padding-right: 90px;
+}
+.firstPart a {
+  font-size: 14px;
+  color: #05b1ba;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bottom button:hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondPart {
+  width: 1250px;
+  /* border: black 2px solid; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mainPic img {
+  width: 500px;
+  /* border: blue 1px solid; */
+  height: 700px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.informations {
+  width: 500px;
+  /* border: black 1px solid; */
+  height: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+}
+
+.informations button {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #05b1ba;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.button {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.informations p {
+  padding-left: 53px;
+  padding-bottom: 10px;
+}
+
+.informations h2 {
+  padding-left: 53px;
+  padding-bottom: 10px;
+}
+
+.informations h1 {
+  padding-bottom: 75px;
+  padding-left: 53px;
+  font-size: 30px;
+}
+
+.informations span {
+  padding-left: 53px;
+}
+
+.allInfos {
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+}
+
+.Sign {
+  width: 600px;
+  height: 800px;
+  /* border: black solid 1px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Sign h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+}
+
+.Sign input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-bottom: rgb(255, 72, 72) solid 1px;
+}
+
+.Sign button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #05b1ba;
+}
+
+.compte {
+  color: #05b1ba;
+}
+.littleSpan {
+  font-size: 12px;
+}
+
+.littleText {
+  width: 255px;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
 }
