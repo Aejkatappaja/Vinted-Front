@@ -8,7 +8,6 @@ Register / Login / uploading pictures and publishing offers.
 ![Vinted](./src/assets/Vinted.png)
 ![Vinted](./src/assets/Vinted-Product.png)
 ![Vinted](./src/assets/Vinted-Register.png)
-![Vinted](./src/assets/Vinted-Login.png)
 ![Vinted](./src/assets/Vinted-Publish.png)
 
 ## Support
