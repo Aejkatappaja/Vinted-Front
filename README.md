@@ -1,7 +1,7 @@
 # Vinted 🧦
 
 Front Vinted fullstack exercise linked with a Back,
-Register / Login / uploading pictures and publishing offer.
+Register / Login / uploading pictures and publishing offers.
 
 ## Desktop Demo
 
