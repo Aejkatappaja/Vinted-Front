@@ -6,8 +6,8 @@ Register / Login / uploading pictures and publishing offer.
 ## Desktop Demo
 
 ![Vinted](./src/assets/Vinted.png)
-![Vinted](./src/assets/Vinted-Cards.png)
-![Vinted](./src/assets/Vinted-login.png)
+![Vinted](./src/assets/Vinted-Product.png)
+![Vinted](./src/assets/Vinted-Login.png)
 ![Vinted](./src/assets/Vinted-Register.png)
 ![Vinted](./src/assets/Vinted-Publish.png)
 
